@@ -1,0 +1,37 @@
+/* There is mdn website for study and doc material */
+
+#box{
+    height: 20px;
+    background-color:blue ;
+}
+.Heading1{
+    color: red;
+    text-decoration:dotted;
+}
+button{
+    background-color: green;
+}
+h1{
+    
+    height: 100px;
+    width: 400px;
+    text-align:center;
+    font-size: 30px;
+    border: solid;
+    border-style: dotted;
+    
+}
+p{
+    text-align:start;
+    font-size:larger;
+    /* There is one more method we are using for the font-size in pixel form like 16px,20px,10px */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+      /* There are five types of font family (serif, san-serif,cursive,fantacy,monospace */
+      /* New roman family is a sub font of serif, Arial is sub font of san-serif */
+    line-height: 25px;
+    text-transform: none;
+}    
+a{
+    text-decoration: none;
+}
+

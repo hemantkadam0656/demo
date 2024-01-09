@@ -1,0 +1,24 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+#box1{
+     position: static;
+    /*you can not change the position of the content with static position*/
+}
+#box2{
+    position: relative;
+    top: 20px;
+}
+#box3{
+    position: absolute;
+    left: 100px;
+    top: 300px
+}
+#box4{
+    position:sticky ;
+    top: 100px;
+}

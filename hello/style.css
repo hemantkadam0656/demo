@@ -1,0 +1,34 @@
+/*h1{
+    color:black;
+}
+p{
+    color:black;
+}
+body{
+    background-color:#5cf0ff;
+}
+button{
+    color: white;
+    background-color: green;
+}*/
+
+/*universal color:- use astrick sign and curly braces */
+*{
+    color:orange;
+    background-color:orangered;
+}
+
+/*id used to give a unique name for the heading or line to change the properties of that line.*/
+/* # is most important to locate the id */
+
+.MyClass{
+    color:black ;
+}
+
+#button{
+    color: white;
+    background:green;
+}
+display{
+    block-size: auto;
+}

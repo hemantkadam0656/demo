@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+    padding: 0px 0px 0px 0px  ;
+}
+
+body{
+    background-image: url("massimiliano-morosinotto-t-1Uf29mISY-unsplash.jpg");
+    background-size: auto;
+    
+}
+.gallary{
+    width: 30px;
+    height: 500px;
+    display: inline;
+    gap: 5px;
+}
+
+.gallary img{
+    width: 20px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 5%;
+    border: 2px solid black; 
+    transition: all ease 0.3s;
+    cursor: pointer;  
+}
+
+.gallary img:hover{
+    width: 500px;
+}
