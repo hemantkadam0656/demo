@@ -1,12 +1,32 @@
 *{
-    margin: 0px;
+    margin: 2px;
     padding: 0px;
-    color: aqua;
 }
-#header{
-    height: 180px;
-    width: 1450px;
-    background-color: black;
-    color: white;
-    
+.header{
+    background-color: rgb(109, 190, 190);
+  /*  height: 180px;
+    width: 1450px;*/
+    display: flex;
+    justify-content: space-evenly;
+}    
+a{
+    color: black;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: gold;
+    align-self:flex-start;
 }
